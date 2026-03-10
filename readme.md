@@ -33,9 +33,9 @@ This solution processes worker activity logs and calculates a **continuity score
  2. Sorts activity by Worker.
  3. Compares consecutive records.
  4. Checks:
-  - Activity gap ≤ 6 days
-  - No employer change
-  - No role change
+ - ActivitYy gap ≤ 6 days
+ - No employer change
+ - No role change
  5. Computes a continuity score.
  6. Outputs ranked results to `results.csv`.
 
